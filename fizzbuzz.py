@@ -5,3 +5,5 @@ def fizzbuzz(n):
     return "Fizz"
   elif n % 5 == 0:
     return "Buzz"
+  else:
+    return str(n)
